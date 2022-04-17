@@ -1,0 +1,74 @@
+body {
+    font-family: fantasy;
+    font-weight: 400;
+    /*font-size: 16px;*/
+    line-height: 1.7;
+    color: rgba(68, 55, 25, 0.87);
+    
+
+}
+
+
+
+.heading-primary {
+    color: rgba(92, 67, 17, 0.877);
+    backface-visibility: hidden;
+    margin-bottom: 6rem; 
+    
+    &--main {
+        display: block;
+        font-size: 6rem;
+        font-weight: 400;
+        letter-spacing: 5px;
+        animation-name: moveInLeft;
+        animation-duration: 2s;}
+     
+        /*
+        animation-delay: 2s;
+        animation-iteration-count: 3;
+        animation-timing-function: ease-in;
+        */     
+    
+    &--sub {
+        display: block;
+        font-size: 55px;
+        font-weight: 500;
+        letter-spacing: 21px;
+        font-family: 'Trebuchet MS';
+        animation-name: moveInRight;
+        animation-duration: 2s; }
+
+}
+
+.heading-secondary {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: inline-block;
+    background-image: linear gradient(to right, rgba(75, 3, 75, 0.521), rgba(201, 37, 201, 0.733));
+    /*-webkit-background-clip: text;
+    color: transparent; */
+    letter-spacing: 2px;
+    transition: all .2s;
+
+    &:hover {
+        transform: skewY(2deg) skewX(15deg) scale(1.1);
+        text-shadow: .5rem 1rem 2rem rgba(75, 3, 75, 0.521);
+    }
+}
+
+.heading-tertiary { 
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+.paragraph {
+    font-size: 1.6rem;
+    
+    &:not(:last-child) {
+        margin-bottom: 3rem;
+    }
+
+}

@@ -1,0 +1,36 @@
+.header {
+    height: 95vh;
+    border-top: 1px solid goldenrod;
+    padding-top: 2rem;
+    background-image: linear-gradient(to bottom, rgba(205, 229, 235, 0.411), rgba(148, 119, 32, 0.829)),
+    url(../img/travelfinderss.jpg);
+    
+    background-size: cover;
+    background-position: top;
+    -webkit-clip-path: polygon(50% 0%, 100% 10%, 100% 100%, 0 100%, 0 10%);
+    clip-path: polygon(50% 0%, 100% 10%, 100% 100%, 0 100%, 0 10%);
+    position: relative; 
+
+    &__logo-box {
+      position: absolute;
+      top: 50px;
+      clip-path: ellipse(28% 33% at 50% 45%); }
+
+    &__logo {
+      height: 100px; }
+
+    &__text-box {
+      position: absolute;
+      top: 45%;
+      left: 50%;
+      transform: translate(-50%, -60%);
+      text-align: center; }
+}     
+  
+  /* 
+  .logo-box:hover {
+      transform: rotate(180deg);
+  
+  */
+
+  
